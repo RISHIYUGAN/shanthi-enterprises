@@ -1,0 +1,118 @@
+.mf-main-div{
+    padding-top: 100px;
+    /* border:2px solid red; */
+    /* background-color:#fe7865; */
+    padding-bottom:80px;
+    background-color: #fffaf6;
+
+}
+.mf-title-div{
+    display: flex;
+    align-items: center;
+}
+.mf-title{
+    color:rgb(61, 61, 61);
+    font-family: poppins;
+    margin-left: 10px;
+    /* border:2px solid red */
+}
+.mf-emptyline{
+  background-color: rgb(68, 67, 67);
+   height:3px;
+   /* border-radius:20%; */
+   /* margin-left: 10px; */
+   width:100px;
+   border:none;
+   outline:none;
+}
+.brands-display{
+    margin-top:30px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    box-sizing: border-box;
+    height: 100%;
+    padding-top: 20px;
+    /* border:2px solid red; */
+}
+.pipe-brands{
+    display: flex;
+    /* border:2px solid red; */
+    flex-grow: 1;
+    /* align-items: center; */
+   justify-content:center; 
+   /* box-sizing: border-box; */
+   /* min-height: 50%;    */
+ }
+ .each-brand{
+   width:25%;
+   /* border: 2px solid green; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding:20px;
+   border-radius: 20px;
+   margin:15px 10px 15px 10px;
+   background-color: white;
+   border:1px solid rgb(224, 224, 224);
+   /* box-sizing: border-box; */
+   /* flex-grow: 1!important; */
+   flex: 1 1 0px
+ }
+ .brand-logo{
+    width:100%;
+    /* border:2px solid red; */
+ }
+ .b-l-div{
+     display: flex;
+     align-items: center;
+     /* border:2px solid red; */
+     width:100%;
+     height: 100%;
+     flex-grow: 1;
+ }
+ .brand-name{
+     /* border:2px solid red; */
+     /* height: 100%; */
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     margin-top:10px;
+ }
+ .brand-name>h5{
+    font-family: poppins;
+    text-align: center;
+    color:gray;
+    /* border:2px solid red; */
+    /* border: 2px solid red; */
+ }
+@media only screen and (max-width:768px){
+    .brands-display>div{
+        display:flex;
+        margin-top:30px
+    }
+    .pipe-brands{
+        display: flex;
+        width:50%;
+        flex-direction: column;
+    }
+    .each-brand{
+        min-height: 25%;
+        width:auto;
+    }
+    .mf-emptyline{
+        width:50px
+    }
+    .mf-title{
+        font-size:25px
+    }
+    .brand-name{
+        margin-top: 20px;
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .mf-title{
+        font-size: 20px;
+    }
+}

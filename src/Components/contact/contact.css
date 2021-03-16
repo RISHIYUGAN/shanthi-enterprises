@@ -1,0 +1,111 @@
+.c-main-div{
+    padding-top:90px;
+    /* border:2px solid red; */
+    background-color: rgb(209, 209, 209);
+    padding-bottom: 50px;
+}
+
+.contact-container{
+    display:flex;
+    /* border: 2px solid red; */
+    flex:1;
+    flex-wrap: wrap;
+}
+.c-div h5{
+ font-family: poppins;
+ margin: 15px 0px;
+ color:rgb(53, 53, 53);
+}
+.c-div{
+    /* border:2px solid red; */
+    font-family: poppins-200;
+    font-weight: bold;
+    color:gray;
+    display:flex; 
+    flex:1;
+    flex-direction: column;
+    padding:10px 20px;
+    /* align-items: center; */
+    justify-content: center;
+}
+.each-cnt{
+    color:rgb(121, 121, 121);
+    margin: 10px 0px;
+    /* padding:10px */
+    /* border: 2px solid red; */
+}
+.c-wrapper{
+    /* border:2px solid red; */
+    flex:1;
+}
+.each-c-in{
+    display: flex;
+    margin: 10px 0px;
+    /* border:2px solid red */
+}
+.cntnt-1,.cntnt-2,.cntnt-3{
+    /* border:2px solid red; */
+    margin-left:10px
+}
+.adds-tit,.email-tit,.phone-tit{
+/* border:2px solid red; */
+min-width:70px;
+display: flex;
+/* justify-content: flex-end; */
+}
+
+.follow-us{
+    /* border:2px solid red; */
+    width:100%;
+    display: flex;
+    font-family: poppins;
+    color:rgb(97, 97, 97);
+    justify-content: flex-start;
+    margin-left: 15px;
+    padding:10px 0px;
+}
+.footer-icon{
+    display: flex;
+}
+.footer-icon>div{
+    width:30px;
+    height: 30px;
+    /* border: 2px solid red; */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    font-family: poppins;
+    /* font-weight: bold; */
+    margin-left: 10px;
+    color: black;
+}
+.footer-icon>div>i{
+    font-size: 20px;
+}
+@media only screen and (max-width:992px){
+    .follow-us{
+        width:auto;
+        align-items: center;
+        margin-left: 0px;
+       
+    }
+
+}
+@media only screen and (max-width:768px){
+    .follow-us{
+        margin-left: 15px;
+    }
+}
+@media only screen and (max-width:600px){
+    .c-div h5{
+        font-size: 16px;
+    }
+    .each-cnt{
+      font-size: 12px;
+    }
+    .each-c-in{
+        font-size: 12px;
+    }
+}

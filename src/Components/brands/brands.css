@@ -1,0 +1,103 @@
+.br-main-div{
+   padding-top:100px;
+   /* background-color: #fffaf6; */
+   background-color: rgb(209, 209, 209);
+   /* border:2px solid red; */
+   padding-bottom:80px;
+   /* margin-bottom:100px; */
+}
+.brand-para{
+   font-family: poppins-200;
+   font-weight: bold;
+   color:gray;
+   max-width: 50%;
+   /* color:rgb(255, 106, 106); */
+   color:gray;
+   margin-top: 15px;
+}
+.brand-title>h3{
+ font-family: poppins;
+ /* margin-left: 10px; */
+ color:rgb(61, 61, 61);
+}
+.brand-title{
+   display: flex;
+   align-items: center;
+}
+.brand-title>.empty-line{
+   background-color: rgb(68, 67, 67);
+   height:3px;
+   /* border-radius:20%; */
+   /* margin-left: 10px; */
+   width:100px;
+   border:none;
+   outline:none;
+}
+
+.br-wrapper{
+ /* border:2px solid green; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-wrap:wrap;
+margin-top:50px;
+}
+.br-sub-wrap{
+   /* border:2px solid red; */
+   width: 50%;
+   display: flex;
+   justify-content:center ;
+   /* flex-grow: 1; */
+   flex-wrap: wrap;
+   /* min-width:200px; */
+}
+.br-div{
+   /* border:2px solid yellow; */
+   width: 50%;
+   /* flex-grow: 1; */
+   flex-wrap: wrap;
+   min-width:200px;
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   /* align-self: flex-start; */
+}
+.each-div-wrapper{
+   margin: auto;
+}
+.each-br:hover{
+   /* background-color: rgb(253, 99, 99); */
+   color:rgb(138, 137, 137);
+}
+.each-br{
+   color:white;
+   /* border:2px solid red; */
+   font-family:poppins;
+   font-weight: bold;
+   padding:10px 0px;
+   /* text-align: center; */
+   word-wrap:unset;
+   white-space: nowrap;
+   cursor: pointer;
+   /* border:2px solid red; */
+}
+@media only screen and (max-width: 991px){
+   .each-div-wrapper{
+      margin-left: 50px;
+   }
+}
+@media only screen and (max-width: 600px){
+   .brand-title>h3{
+      font-size: 20px;
+   }
+   .each-br{
+      font-size: 14px;
+   }
+   .brand-title>.empty-line{
+      width:50px;
+   }
+   .brand-para{
+      max-width: 90%;
+      font-size: 12px;
+   }
+}

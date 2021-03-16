@@ -1,0 +1,30 @@
+.e-response-div{
+    position:fixed;
+    max-width:250px;
+    top:25px;
+    z-index:99;
+    margin-left: 50%;
+    transform:translateX(-50%) translateY(-150%);
+    font-family: poppins-500;
+    background-color: rgb(39, 39, 255);
+    padding:20px 20px 0px 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    color:white;
+    transition:transform 0.5s;
+    text-align: center;
+    border:5px solid red;
+   }
+   .e-response-div>h6{
+       line-height: 25px;
+   }
+   .e-response-div-project{
+       width:30px;
+       height: 30px;
+       background-color: rgb(39, 39, 255);
+       position:absolute;
+       top:0px;
+       transform-origin: center;
+       transform:translateY(-50%) rotate(45deg);
+   }
